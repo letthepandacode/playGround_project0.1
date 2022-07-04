@@ -1,5 +1,5 @@
 # playGround_project0.1
-This repo will have basic workup of my own learnings
+This repo will have basic workup of my own learnings (HTML5 & CSS3).
 
 June'2022:
 - Learning HTML5 & created a basic html page
