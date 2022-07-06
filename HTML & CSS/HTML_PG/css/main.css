@@ -18,9 +18,7 @@ body{
     font-size: smaller;
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap;
-    
-   
+    flex-wrap:nowrap;   
    
 }
 
@@ -68,7 +66,7 @@ body{
    /* background-color: beige;*/
     width: 400px;
     padding-left: 70px;
-    p
+   
      
 }
 
@@ -170,23 +168,38 @@ body{
    object-fit: cover;
    object-position: left bottom;
    display:inline-block;
+   display: none;
    
    
 }
 .img2{
 border: 5px solid white;
 display:inline-block;
-   width:439px ;
-   height:450px;
+   width:850px ;
+   height:600px;
    object-fit: cover;
    object-position: left bottom;
-   float: right;
+   
    
 }
 .img3{
     border: 5px solid white;
-    width:439px ;
-    height:450px;
+    width:450px ;
+    height:600px;
     object-fit: cover;
-    float:right;
+    float: right;
+       
+}
+
+.testimonials ,p{
+    font-family: adobe-garamond-pro;
+    background-color: black;
+    border: 5px solid green;
+    color:rgba(255,255,255,.8);
+    padding: 150px 70px 100px 75px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
 }
