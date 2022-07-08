@@ -30,7 +30,7 @@
             <section>
                 <container>
                     <div class="front-img" >
-                        <img src="/images/front9mg.jpg" alt="Thambi Vilas Home image">
+                        <img style="width:100%;" src="/images/front9mg.jpg" alt="Thambi Vilas Home image">
                     </div> 
 
                 </container >
@@ -163,25 +163,57 @@
                 
             </div>
             </contacts>
-            <Section>
+            <Section class="last-sec">
                 <section class="video" >
-                    <br>
+                    
                     <h3  > Video/Vlog Reviews</h3>
                     <br>
                     <iframe class="video-k" src="https://www.youtube.com/embed/InBtSSWuUYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
-                <form>
-                <p>Name</p>
-                <input type="text">
-                <p>Phone No</p>
-                <input type="number">
-                <p>Suggestions</p>
-                <textarea rows="10" cols="25" style="color:grey;">
-                    Enter your Suggestions here.
-                </textarea>
                 <br>
-                <input type="submit">
-            </form>
+                <form class="form">
+                    <div >
+                        <span class="t-sug">Suggestions</span>
+                    </div>
+                    <br>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+
+                    <label for="mobile#">Phone No</label>
+                    <input type="number" id="mobile#" name="mobile#" placeholder="Mobile#">
+                    
+                    <label for="locate">Store location</label>
+                    <select name="locate" id="locate">
+                        <option value="Select">Select</option>
+                        <option value="Nungambakkam">Nungambakkam</option>
+                        <option value="T-Nagar">T-Nagar</option>
+                        <option value="OMR Road">OMR Road</option>
+                    </select>
+
+                    <label for="type">Order type </label>
+                    <label >
+                        <input  type="radio" name="type" />
+                        <span >Dine-In
+                        </span>
+                        <input   type="radio" name="type" />
+                        <span >Takeaway
+                        </span>
+                        <input   type="radio" name="type" />
+                        <span>Delivery
+                        </span>
+                      </label>
+                     
+                      </body>
+
+                    <label for="suggest" >Suggestions</label>
+                    <textarea  name="suggest" id="suggest"  rows="10" cols="25">                        
+                    </textarea>
+                    <br>
+                    <span class="s-btn">
+                    <input type="submit"  class="send-message-cta" value="Send message">
+                </span>
+                </form>
             </Section>
         </main>
         <footer>
