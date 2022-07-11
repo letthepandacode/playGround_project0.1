@@ -330,12 +330,12 @@ display:inline-block;
     display: flex;
     flex-direction: column;
     
-    margin-left: 100px;
-    margin-top: 70px;
-    margin-right: 700px;
+   height: 75%;
+
+    margin: 70px 700px 0px 100px;
     
     border-radius: 35px;
-    padding: 50px 20px 15px 40px;
+    padding: 50px 20px 0px 40px;
 
 }
 
@@ -365,17 +365,33 @@ label {
     margin-bottom: .5em;
 }
 
-input[type="submit"]{
-    width: 250px;
-    height:40px;
-    position: relative;
-       
-}
 
-.s-btn{
+
+/*.s-btn{
     
     display: block;
   margin-left: auto;
   margin-right: auto;
- 
+   
+}*/
+
+input[type="submit"] {
+    width: 250px;
+    height:40px;
+    position: relative;
+    
+    color: black;
+    background-color: #ffc300;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 1em;
+    border-radius: 5em;
+  
+  
+    align-items: center;
+    cursor: pointer;
 }
